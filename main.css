@@ -1,0 +1,155 @@
+/* Define que todas as caixas tenham margem, preenchimento e modelo de caixa específicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define a fonte para cabeçalhos dentro de header e h2 dentro de section */
+header,
+section h3 {
+    font-family: "Bungee", sans-serif;
+}
+
+/* Define a fonte para o corpo do documento */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    padding: 16px 0;
+    background-color: #182c61;;
+    color: #ecf0f1;
+}
+
+/* Define que os cabeçalhos dentro de header e section tenham peso de fonte normal */
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
+/* Estilo para a navegação dentro do cabeçalho */
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* Estilo para os links dentro da navegação do cabeçalho */
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+/* Estilo para os elementos com a classe "container" */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo para os elementos com a classe "container" dentro de header e section */
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilo para imagens dentro de uma lista de marcas */
+.brands-list img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+/* Estilo para itens de lista dentro de uma lista de marcas */
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+/* Estilo para os elementos com a classe "container" dentro de section */
+section .container {
+    align-items: flex-start;
+}
+
+/* Estilo para seções */
+section {
+    padding: 24px 0;
+    color: #182c61; 
+}
+
+/* Estilo para cabeçalhos dentro de seções */
+section h2 {
+    margin-bottom: 16px;
+}
+
+/* Estilo para parágrafos dentro de seções */
+section p {
+    margin-bottom: 8px; 
+}
+
+/* Estilo para elementos com a classe "store-front" */
+.store-front {
+    margin-right: 32px;   /* aplicação da margem da direita da imagem */
+}
+
+.social-links img {
+    height: 24px;
+}
+
+#contact {
+    margin-left: 32px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
